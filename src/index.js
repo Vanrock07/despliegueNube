@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const Port = process.env.PORT || 4000;
+const Port = process.env.PORT || 7000;
 
 //rutas de los modulos 
 app.use("/api/usuarios", require("../routes/usuarioRoutes"))
